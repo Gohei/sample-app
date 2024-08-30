@@ -23,8 +23,14 @@ MNISTデータセットでトレーニングされたモデルを使用し、Str
 python --version
 ```
 
+### 2. プロジェクトのダウンロード
+1. 以下のリンクからプロジェクトをダウンロードしてください。  
+[sample-app-main.zip](https://github.com/Gohei/sample-app/archive/refs/heads/main.zip)
+
+2. ダウンロードしたzipファイルを解凍してください。
+
 ### 2. VSCodeでプロジェクトを開く ⛹️‍♂️
-`MNIST-FastAPI-Streamlit-main`フォルダをドラッグドロップをして、VSCodeで開きます。
+解凍した`sample-app-main`フォルダをドラッグドロップをして、VSCodeで開きます。
 
 ---
 

@@ -28,10 +28,12 @@ python --version
 [sample-app-main.zip](https://github.com/Gohei/sample-app/archive/refs/heads/main.zip)
 
 2. ダウンロードしたzipファイルを解凍してください。
+![Unzip](./gif/unzip.gif)
 
 ### 2. VSCodeでプロジェクトを開く ⛹️‍♂️
 解凍した`sample-app-main`フォルダをドラッグドロップをして、VSCodeで開きます。
 
+![Open Project](./gif/open_project.gif)
 ---
 
 ### 3. 仮想環境の作成 🔮
@@ -41,6 +43,9 @@ python --version
 python -m venv venv
 ```
 このコマンドを実行すると、現在のフォルダに venv という名前のフォルダが作成されます。  
+
+![Create venv](./gif/create_venv.gif)
+
 
 ##### 注意事項 🚨
 - 仮想環境（venvフォルダ）はGitリポジトリにコミットしないのが一般的です。  
@@ -62,15 +67,19 @@ python -m venv venv
     ```bash
     source venv/bin/activate
     ```
+![Activate venv](./gif/activate_venv.gif)
 
 ---
 
 ### 5. 必要なライブラリのインストール 📚
 仮想環境が有効になっていることを確認し、  
-ターミナルで次のコマンドを入力して必要なライブラリをインストールします：
+ターミナルで次のコマンドを入力して必要なライブラリをインストールします：  
+**※完了までに数分かかる場合があります。**
+
 ```bash
 pip install -r requirements.txt
 ```
+![Install](./gif/install_modules.gif)
 
 ---
 
